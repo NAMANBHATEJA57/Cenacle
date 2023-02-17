@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+
+.Profile {
+    background: var(--color-white);
+    border-radius:var(--card-border-radius) ;
+    padding: var(--card-padding);
+    display: grid;
+    grid-template-rows: 1.5fr 3fr;
+    padding: 0;
+    overflow: hidden;
+    min-height: 300px;
+}
+
+.Profile > div:first-child {
+    position: relative;
+}
+
+.Profile > div:first-child > span {
+    position: absolute;
+    bottom: -2em;
+    left: 1em;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.Profile > div:first-child > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1em;
+    right: 3em;
+    background-color: black;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
+.Profile > div:first-child > span > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    outline: 2px solid white;
+    outline-offset: -4px;
+}
+
+.Profile > .details {
+    padding: 35px 20px 0 20px ;
+    font-family: 'Poppins', sans-serif ;
+}
+

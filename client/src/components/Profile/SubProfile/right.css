@@ -1,0 +1,62 @@
+.Rick{
+    background-image: url("https://c.tenor.com/_4YgA77ExHEAAAAC/rick-roll.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Profile_Grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background-image: radial-gradient(var(--color-primary), var(--color-light) 50%)
+}
+
+.Profile_Grid > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: var(--color-white);
+}
+
+.name{
+color: var(--color-primary);
+}
+
+.Vote{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+}
+
+.Nicks{
+    animation: effect 5s linear infinite;
+    font-weight: bolder;
+    /* font-size: 1.0em; */
+    cursor: pointer;
+}
+
+@keyframes effect {
+    0% {
+        color: hsl(252,75%,60%);
+    }
+    20%{
+        color: hsl(52,75%,60%);
+    }
+    40%{
+        color: hsl(352,75%,60%);
+    }
+    60%{
+        color: hsl(152,75%,60%);
+    }
+    80%{
+        color: hsl(202,75%,60%);
+    }
+
+    100% {
+        color: rgb(187, 116, 23);
+    }
+}

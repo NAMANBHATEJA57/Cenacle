@@ -1,0 +1,5 @@
+{
+    "backendLocalUrl":"https://cenacletechlab.herokuapp.com" ,
+    "render":"https://cenacle.onrender.com",
+    "backendUrl": "http://localhost:8080"
+}
